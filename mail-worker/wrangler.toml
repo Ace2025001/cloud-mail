@@ -47,6 +47,7 @@ crons = ["0 * * * *"]	#每小时执行；resetDaySendCount 仅在 UTC 0 点生�
 #orm_log = false			#是否sql日志
 domain = ["ann.edu.kg"]				#邮件域名可可配置多个 示例: ["example1.com","example2.com"]
 admin = "admin@ann.edu.kg"					#管理员的邮箱	示例: admin@example.com
+project_link = false		#隐藏登录页右下角 GitHub 图标
 #jwt_secret = ""			#jwt令牌的密钥,随便填一串字符串
 
 [build]
