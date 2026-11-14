@@ -51,3 +51,5 @@ admin = "admin@ann.edu.kg"					#管理员的邮箱	示例: admin@example.com
 
 [build]
 command = "pnpm --prefix ../mail-vue install && pnpm --prefix ../mail-vue run build"
+
+# 由 Cloudflare Workers Builds 自动部署（推送到 main 即触发）
