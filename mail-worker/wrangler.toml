@@ -3,7 +3,8 @@ main = "src/index.js"
 compatibility_date = "2025-06-04"
 keep_vars = true
 routes = [
-  { pattern = "mail.ann.edu.kg", custom_domain = true }
+  { pattern = "mail.ann.edu.kg", custom_domain = true },
+  { pattern = "mail.annighty.com", custom_domain = true }
 ]
 
 [observability]
